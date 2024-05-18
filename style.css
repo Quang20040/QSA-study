@@ -5,6 +5,7 @@
   width: 1500px;
   height: 500px;
 }
+
 .logo img {
     max-width: 100px; /* Đặt chiều rộng tối đa của logo là 200 pixel */
     height: auto; /* Đảm bảo tỷ lệ khung hình tự động được bảo tồn */
@@ -340,4 +341,15 @@ nav li {
 
 .info {
   text-align: center;
+}
+.containeer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; /* Để căn giữa theo chiều dọc */
+}
+
+img {
+  max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của container */
+  max-height: 100%; /* Đảm bảo ảnh không vượt quá chiều cao của container */
 }
