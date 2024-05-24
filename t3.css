@@ -70,9 +70,9 @@
       display: inline-flex;
     }
     .banner {
-      background-color: #e7e3e3;
+      background-color: #fdfdfd;
   
-      padding: 0px 0;
+      padding: 0px 490px;
     }
     
     .banner .container {
@@ -462,23 +462,35 @@
     padding: 10px;
     border: 1px solid #ccc;
 }
-.pagination {
-  display: flex ;
+    
+.kt{
 
-  margin: 0 auto; /* Can giữa theo chiều ngang */
-  width: 20%; /* Ví dụ: đặt chiều rộng của phần tử */ /* Giữ phân trang căn giữa */
+position: relative;
+width: 1440px;
+height: 500px;
+
+background: #FFFFFF;
+}
+
+  
+
+  .pagination {
+    display: flex ;
+
+    margin: 0 auto; /* Can giữa theo chiều ngang */
+    width: 20%; /* Ví dụ: đặt chiều rộng của phần tử */ /* Giữ phân trang căn giữa */
 }
 .pagination a {
-  color: black;
-  float: left;
-  padding: 8px 16px;
-  text-decoration: none;
-  transition: background-color .3s;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
 }
 .pagination a.active {
-  background-color: #4CAF50;
-  color: white;
+    background-color: #4CAF50;
+    color: white;
 }
 .pagination a:hover:not(.active) {
-  background-color: #ddd;
+    background-color: #ddd;
 }
