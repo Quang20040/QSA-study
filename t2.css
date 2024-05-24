@@ -72,7 +72,7 @@
     .banner {
       background-color: #e7e3e3;
   
-      padding: 0px 0;
+      padding: 0px 500px;
     }
     
     .banner .container {
@@ -141,9 +141,7 @@
       margin-right: 10px; /* Khoảng cách giữa các sản phẩm */
     }
     
-    .product:last-child {
-      margin-right: 0; /* Loại bỏ margin phải của sản phẩm cuối cùng */
-    }
+  
     
     .product img {
       max-width: 100%;
@@ -174,25 +172,7 @@
       margin-bottom: 10px;
     }
     
-    .product {
-      position: relative; /* Đặt vị trí của sản phẩm là tương đối để tạo hiệu ứng phát sáng */
-    }
-    
-    .product:hover::after {
-      content: ''; /* Thêm một lớp giả nguyên trạng */
-      position: absolute; /* Đặt vị trí của lớp là tuyệt đối */
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(255, 255, 255, 0.5); /* Màu nền phát sáng */
-      z-index: 1; /* Đặt lớp phát sáng trên cùng */
-      transition: opacity 0.3s ease; /* Tạo hiệu ứng chuyển đổi mềm mại */
-      opacity: 0; /* Ẩn lớp ban đầu */
-    }
-    
-    .product:hover .product-info {
-      z-index: 2; /* Đặt thông tin sản phẩm trên cùng */
+   
     }
     
     .product:hover::before {
@@ -398,7 +378,7 @@
 }
 
 .product-details {
-    padding: 400px;
+    padding: 100px;
 }
 
 .product-details h2 {
