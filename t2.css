@@ -1,5 +1,6 @@
 .banner {
-    height: 100px;
+    height: 20px;
+    
   }
   .banner img{
     width: 1500px;
@@ -369,8 +370,20 @@
     justify-content: space-between;
     align-items: center;
 }
-
-
+.image-xa {
+  display: flex;
+  flex-direction: column;
+}
+.image-xa img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+.image-xa img {
+  width: 100%; /* Để mỗi ảnh chiếm toàn bộ chiều rộng của container */
+  height: auto; /* Đảm bảo tỷ lệ khung hình được bảo toàn */
+  margin-bottom: 10px; /* Khoảng cách giữa các ảnh */
+}
 .product-image {
     width: 400px;
     height: auto;
