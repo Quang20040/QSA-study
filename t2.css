@@ -141,7 +141,9 @@
       margin-right: 10px; /* Khoảng cách giữa các sản phẩm */
     }
     
-  
+    .product:last-child {
+      margin-right: 0; /* Loại bỏ margin phải của sản phẩm cuối cùng */
+    }
     
     .product img {
       max-width: 100%;
