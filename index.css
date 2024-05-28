@@ -1,0 +1,51 @@
+* {
+  text-decoration: none;
+}
+body {
+  margin: 50% auto;
+  margin-top: 0;
+}
+.center {
+  text-align: center;
+  align-items: center;
+}
+#login {
+  /* ĐĂNG NHẬP TÀI KHOẢN */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 48px;
+  color: #000000;
+}
+#email {
+  /* Nhập email và mật khẩu của bạn */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+
+  color: #000000;
+}
+.gmail {
+}
+.hi {
+  width: 400px;
+  height: 30px;
+}
+#hi-email {
+  margin-bottom: 30px;
+}
+#hi-lock {
+  margin-bottom: 30px;
+}
+.login {
+  width: 400px;
+  height: 41px;
+  box-sizing: border-box;
+  background: #110000;
+  border: 2px solid #000000;
+  color: #fff;
+  font-size: 20px;
+}

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+#container{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px #D9D9D9;
+    top: 20px;
+}
+/* ---------------------- top ---------------------- */
+.top a {
+    text-decoration: none;
+    color: #000;
+}
+.top h1{
+    text-align: center;
+    margin-bottom: 12px;
+}
+.text-top{
+    font-size: 18px;
+    margin: 15px;
+}
+.text-top a:hover{
+    color: red;
+}
+/* ---------------------- mid ---------------------- */
+.mid {
+    display: flex;
+}
+.text-mid {
+    display: flex;
+    flex-direction: column;
+}
+.size {
+    width: 144px;
+    height: 28px;
+    background: #FEE500;
+    border-radius: 15px;
+    text-align: center;
+    margin: 3px;
+}
+.size p{
+    font-size: 18px;
+    margin-top: 3px;
+}
+.air-force {
+    font-size: 25px;
+    margin: 5px;
+}
+.masp{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.soluong {
+    display: flex;
+    width: 130px;
+    height: 35px;
+    background: #FBF7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    gap: 28px;
+}
+.congtru {
+    width: 100%;
+    height: 100%;
+    background: #D9D9D9;
+    text-align: center;
+    padding: 8px;
+}
+.x {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #FD0404;
+    border-radius: 50%;
+    text-align: center;
+    top: 170px;
+    left: 620px;
+}
+.x a {
+    text-decoration: none;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+/* ---------------------- bot ---------------------- */
+.bot {
+    padding: 15px;
+    float: right;
+}
+.btn {
+    margin: 10px;
+    width: 143px;
+    height: 40px;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 1px 3px 3px #000;
+}
+.btn a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
